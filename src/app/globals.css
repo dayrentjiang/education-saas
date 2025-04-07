@@ -18,9 +18,12 @@
     --foreground: #ededed;
   }
 }
-
+/* use Alike for title and sarabun for body */
+h1 {
+  font-family: "Alike";
+}
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sarabun";
 }
