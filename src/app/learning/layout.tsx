@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import React from "react";
 
 export const metadata = {
@@ -16,7 +17,9 @@ export default function LearningPage({
   return (
     <body>
       <main className="flex min-h-screen flex-col">
-        <div className="flex flex-col md:flex-row flex-1 ">
+        {/* navbar */}
+        <Navbar />
+        <div className="flex flex-col md:flex-row flex-1 p-2 sm:p-4">
           {/* main content area */}
           <div className="flex-1 overflow-y-auto">{children}</div>
 

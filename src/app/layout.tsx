@@ -40,7 +40,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className}>
-      <body className={`${alike.variable} ${sarabun.variable} antialiased`}>
+      <body
+        className={`${alike.variable} ${sarabun.variable} antialiased bg-amber-50`}
+      >
         {children}
       </body>
     </html>

@@ -9,6 +9,7 @@ import LightFeaturesSection from "./LightFeaturesSection";
 import CardSection from "./CardSection";
 import TestimonialsSection from "./TestimonialsSection";
 import CtaSection from "./CtaSection";
+import Navbar from "../Navbar";
 
 const HomePage: React.FC = () => {
   // This custom hook would need to be created separately
@@ -16,27 +17,10 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col border-b-orange-100">
       {/* Navigation */}
-      <nav className="flex justify-between items-center p-4">
-        <div className="font-bold italic text-2xl">Logo</div>
-
-        <div className="flex gap-2 ">
-          <Link
-            href="/start"
-            className="px-4 py-2 bg-gray-100 rounded-md hover:bg-gray-200 transition"
-          >
-            Start
-          </Link>
-          <Link
-            href="/explore"
-            className="px-4 py-2 bg-yellow-400 rounded-md hover:bg-yellow-500 transition"
-          >
-            Explore
-          </Link>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Hero Section */}
-      <div className="flex flex-col items-center justify-center text-center px-4 py-12 md:py-16">
+      <div className="flex flex-col items-center justify-center text-center px-4 py-12 mt-4 md:py-16">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Unlock Your Personalized
           <br />
