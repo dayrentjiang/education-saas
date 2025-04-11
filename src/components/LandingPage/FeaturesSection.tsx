@@ -81,7 +81,7 @@ const FeaturesSection: React.FC = () => {
           {/* Feature 1 */}
           <FeatureCard
             icon={<CubeIcon />}
-            title="Transform Your Learning Experience with Clarity and Confidence"
+            title="Transform Your Learning Experience with Clarity"
             description="Many learners struggle to find the right starting point for their journey."
             linkText="Learn"
             linkHref="/learn"
@@ -90,7 +90,7 @@ const FeaturesSection: React.FC = () => {
           {/* Feature 2 */}
           <FeatureCard
             icon={<CubeIcon />}
-            title="Navigate the Overload of Resources with Ease and Focus"
+            title="Navigate the Overload of Resources with Ease"
             description="The abundance of information can be overwhelming without a clear direction."
             linkText="Explore"
             linkHref="/explore"
